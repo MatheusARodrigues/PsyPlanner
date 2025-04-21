@@ -3,7 +3,7 @@ from sqlalchemy import (
 )
 from sqlalchemy.orm import relationship
 
-class HorarioAtendimento(): #incluir Base apos criação do database
+class HorarioAtendimento(): 
     id = Column(Integer, primary_key=True)
     dia_semana = Column(Integer)
     hora_inicio = Column(Time)
